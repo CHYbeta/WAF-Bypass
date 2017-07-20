@@ -16,7 +16,7 @@
 
 ## File Upload
 
-* 基本过waf姿势汇总
+* [基本过waf姿势汇总](file-upload/ji-ben-guo-waf-zi-shi-hui-zong.md)
 * 案例
 
 ## 特殊场景
