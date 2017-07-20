@@ -4,15 +4,18 @@
 
 ## SQL Injection
 
-* [基本过waf姿势汇总](sql-injection/ji-ben-guo-waf-zi-shi-hui-zong.md)
-* SQLmap tamper绕过
+* [基本姿势汇总](sql-injection/ji-ben-guo-waf-zi-shi-hui-zong.md)
+* [SQLmap tamper绕过](sql-injection/sqlmap-tamperrao-guo.md)
+* 案例
 
 ## XSS
 
-* 基本过waf姿势汇总
-* XSS Cheat Sheet
+* [XSS Cheat Sheet](xss/xss-cheat-sheet.md)
+* CSP绕过技巧
+* 案例
 
 ## File Upload
 
 * 基本过waf姿势汇总
+* 案例
 
