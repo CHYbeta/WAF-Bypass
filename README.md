@@ -6,8 +6,8 @@
 
 主要由以下几个方面组成：
 
-+ SQL Injection Bypass WAF
-+ XSS Bypass WAF
-+ File Upload Bypass WAF
++ SQL Injection 
++ XSS  
++ File Upload  
 
 
