@@ -8,7 +8,7 @@
 * [SQLmap tamper绕过](sql-injection/sqlmap-tamperrao-guo.md)
 * 案例
 
-## XSS
+## 前端安全
 
 * [XSS Cheat Sheet](xss/xss-cheat-sheet.md)
 * CSP绕过技巧

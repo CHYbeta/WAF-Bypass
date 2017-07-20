@@ -7,7 +7,7 @@
 主要由以下几个方面组成：
 
 + SQL Injection 
-+ XSS  
++ 前端安全  
 + File Upload  
 
 
