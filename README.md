@@ -6,8 +6,9 @@
 
 主要由以下几个方面组成：
 
-+ SQL Injection 
++ SQL注入 
 + 前端安全  
-+ File Upload  
++ 文件上传
++ 特殊场景 
 
 
