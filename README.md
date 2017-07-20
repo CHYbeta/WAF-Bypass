@@ -1,4 +1,4 @@
-# WAF Bypass
+# [WAF Bypass](https://chybeta.gitbooks.io/waf-bypass/content/)
 
 
 
