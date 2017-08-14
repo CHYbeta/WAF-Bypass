@@ -4,6 +4,8 @@
 
 ## SQL Injection
 
+* MYSQL注入
+  * [基本绕过方法](sql-injection/ji-ben-rao-guo-fang-fa.md)
 * [基本姿势汇总](sql-injection/ji-ben-guo-waf-zi-shi-hui-zong.md)
 * [SQLmap tamper绕过](sql-injection/sqlmap-tamperrao-guo.md)
 * 案例
