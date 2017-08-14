@@ -9,7 +9,7 @@
   * [CSP 绕过](csprao-guo.md)
 * [命令注入](ming-ling-zhu-ru.md)
   * PHP
-* 文件上传漏洞
+* [文件上传漏洞](wen-jian-shang-chuan-lou-dong.md)
   * Apache
   * IIS
   * 编辑器漏洞
