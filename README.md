@@ -8,8 +8,8 @@
 
 + [SQL注入](https://chybeta.gitbooks.io/waf-bypass/content/sqlzhu-ru.html)
 + [前端安全](https://chybeta.gitbooks.io/waf-bypass/content/qian-duan-an-quan.html)
-+ 文件上传
-+ CDN绕过
-+ 特殊场景 
++ [命令注入](https://chybeta.gitbooks.io/waf-bypass/content/ming-ling-zhu-ru.html)
++ [文件上传](https://chybeta.gitbooks.io/waf-bypass/content/wen-jian-shang-chuan-lou-dong.html)
++ [特殊场景](https://chybeta.gitbooks.io/waf-bypass/content/te-shu-chang-jing.html)
 
 
