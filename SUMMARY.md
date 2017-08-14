@@ -8,10 +8,10 @@
   * [XSS cheet sheet](xss-cheet-sheet.md)
   * [CSP 绕过](csprao-guo.md)
 * [命令注入](ming-ling-zhu-ru.md)
-  * PHP
+  * [PHP](ming-ling-zhu-ru/php.md)
 * [文件上传漏洞](wen-jian-shang-chuan-lou-dong.md)
-  * Apache
-  * IIS
-  * 编辑器漏洞
+  * [Apache](wen-jian-shang-chuan-lou-dong/apache.md)
+  * [IIS](wen-jian-shang-chuan-lou-dong/iis.md)
+  * [编辑器漏洞](wen-jian-shang-chuan-lou-dong/bian-ji-qi-lou-dong.md)
 * [特殊场景](te-shu-chang-jing.md)
 
