@@ -1,2 +1,10 @@
 # Refference
 + [关于PHP内部编码与mysql字符差异问题的研究](http://bobao.360.cn/learning/detail/3209.html)
++ [如何绕过WAF/NGWAF的libinjection实现SQL注入](http://bobao.360.cn/learning/detail/3855.html)
++ [MySQL False注入及技巧总结](http://bobao.360.cn/learning/detail/3804.html)
++ [SQL注入防御与绕过的几种姿势](http://bobao.360.cn/learning/detail/3801.html)
++ [MySQL 注入攻击与防御](http://bobao.360.cn/learning/detail/3758.html)
++ [技术分享：杂谈如何绕过WAF（Web应用防火墙） ](http://www.freebuf.com/articles/web/54686.html)
++ [见招拆招：绕过WAF继续SQL注入常用方法](http://www.freebuf.com/articles/web/36683.html)
++ [WAF绕过的奇技淫巧](http://www.freebuf.com/articles/web/10099.html)
++ [在SQL注入中利用MySQL隐形的类型转换绕过WAF检测 ](http://www.freebuf.com/articles/web/8773.html)
