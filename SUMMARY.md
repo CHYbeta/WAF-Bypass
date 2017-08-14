@@ -3,10 +3,10 @@
 * [SQL注入](sqlzhu-ru.md)
   * [Mysql注入](sqlzhu-ru/mysqlzhu-ru.md)
     * [基本绕过方法](sqlzhu-ru/mysqlzhu-ru/ji-ben-rao-guo-fang-fa.md)
-* MYSQL注入
-  * [基本绕过方法](sql-injection/ji-ben-rao-guo-fang-fa.md)
 * [Introduction](README.md)
-* [Mysql注入](mysqlzhu-ru.md)
+* 前端安全
+  * [XSS cheet sheet](xss-cheet-sheet.md)
+  * [CSP 绕过](csprao-guo.md)
 
 ## SQL Injection
 
