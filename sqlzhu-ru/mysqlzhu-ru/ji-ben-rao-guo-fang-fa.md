@@ -8,3 +8,4 @@
 + [见招拆招：绕过WAF继续SQL注入常用方法](http://www.freebuf.com/articles/web/36683.html)
 + [WAF绕过的奇技淫巧](http://www.freebuf.com/articles/web/10099.html)
 + [在SQL注入中利用MySQL隐形的类型转换绕过WAF检测 ](http://www.freebuf.com/articles/web/8773.html)
++ [如何使用SQLMap绕过WAF](http://www.freebuf.com/articles/1000.html)
