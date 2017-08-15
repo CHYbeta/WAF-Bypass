@@ -67,8 +67,14 @@ nice day
 从已有的文件或者环境变量中获得相应的字符。
 
 ## 法三： base64编码
-``
+payload1:
+```
 ubuntu@VM-207-93-ubuntu:~$ `echo "Y2F0IGZsYWc="|base64 -d`
+nice day
+```
+payload2:
+```
+ubuntu@VM-207-93-ubuntu:~$ echo "Y2F0IGZsYWc="|base64 -d|bash
 nice day
 ```
 
@@ -79,7 +85,7 @@ nice day
 # LINUX下一些已有字符
 + ${PS2} 对应字符 '>'
 + ${PS4} 对应字符 '+'
-+ ${IFS} 对应字符 空白
++ ${IFS} 对应 内部字段分隔符
 + ${9}   对应 空字符串
 
 # 工具
