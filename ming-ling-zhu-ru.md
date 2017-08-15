@@ -78,8 +78,6 @@ ubuntu@VM-207-93-ubuntu:~$ echo "Y2F0IGZsYWc="|base64 -d|bash
 nice day
 ```
 
-# 无回显
-
 # 长度限制
 ## 文件构造
 payload1:
@@ -107,6 +105,8 @@ if(strlen($_GET[test])<8){
 }
 ?>
 ```
+# 无回显
+
 
 # LINUX下一些已有字符
 + ${PS2} 对应字符 '>'
