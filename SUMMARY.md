@@ -9,8 +9,6 @@
     * [基本绕过方法](xss/ji-ben-rao-guo-fang-fa.md)
     * [CSP 绕过](xss/csp-rao-guo.md)
 * [命令执行](ming-ling-zhu-ru.md)
-  * [PHP](ming-ling-zhu-ru/php.md)
-  * [SHELL](ming-ling-zhu-ru/shell.md)
 * [文件上传漏洞](wen-jian-shang-chuan-lou-dong.md)
   * [Apache](wen-jian-shang-chuan-lou-dong/apache.md)
   * [IIS](wen-jian-shang-chuan-lou-dong/iis.md)
