@@ -8,10 +8,11 @@
   * [XSS](xss.md)
     * [基本绕过方法](xss/ji-ben-rao-guo-fang-fa.md)
     * [CSP 绕过](xss/csp-rao-guo.md)
-* [命令执行](ming-ling-zhu-ru.md)
 * [文件上传漏洞](wen-jian-shang-chuan-lou-dong.md)
   * [Apache](wen-jian-shang-chuan-lou-dong/apache.md)
   * [IIS](wen-jian-shang-chuan-lou-dong/iis.md)
   * [编辑器漏洞](wen-jian-shang-chuan-lou-dong/bian-ji-qi-lou-dong.md)
+* [命令执行](ming-ling-zhu-ru.md)
 * [特殊场景](te-shu-chang-jing.md)
+  * [SSRF](te-shu-chang-jing/ssrfrao-ip-xian-zhi.md)
 

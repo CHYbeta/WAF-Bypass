@@ -5,7 +5,7 @@ tags: [php,代码审计,代码执行]
 categories: Web Security
 copyright: true
 ---
-# 绕过escapeshellcmd
+# 0x01 绕过escapeshellcmd
 ## 法一：win下执行bat
 ```php
 <?php
@@ -32,7 +32,7 @@ echo 繺;id
 ```
 从而实现 id 命令的注入。
 
-# 空格过滤
+# 0x02 空格过滤
 ## 法一： ${IFS}
 payload1:
 ```
@@ -64,7 +64,7 @@ ubuntu@VM-207-93-ubuntu:~$ cat<flag
 nice day
 ```
 
-# 黑名单绕过
+# 0x03 黑名单绕过
 ## 法一： 拼接
 ```
 ubuntu@VM-207-93-ubuntu:~$ a=c;b=at;c=flag;$a$b $c
@@ -107,9 +107,9 @@ ubuntu@VM-207-93-ubuntu:~$ c\at fl\ag
 nice day
 ```
 
-# 无回显
+# 0x04 无回显
 
-# 长度限制
+# 0x05 长度限制
 ```php
 <?php
 if(strlen($_GET[test])<8){
@@ -136,17 +136,17 @@ payload3:
 
 
 
-# LINUX下一些已有字符
+# 0x06 LINUX下一些已有字符
 + ${PS2} 对应字符 '>'
 + ${PS4} 对应字符 '+'
 + ${IFS} 对应 内部字段分隔符
 + ${9} 对应 空字符串
 
-# 工具
+# 0x07 工具
 + [shelling
 ](https://github.com/ewilded/shelling)
 
-# Refference
+# 0x08 Refference
 + [PHP绕过open_basedir列目录的研究](https://www.leavesongs.com/PHP/php-bypass-open-basedir-list-directory.html)
 + [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html)
 + [关于lnmp目录禁止执行的绕过与正确方法](https://www.leavesongs.com/PENETRATION/nginx-deny-exec-php-file.html)
