@@ -10,3 +10,6 @@ payload：
 ````
 
 # 0x03 法二：xip.io
+
+# Refference
++ [math1as:CUIT-CTF WriteUp总结](http://www.math1as.com/index.php/archives/70/)
