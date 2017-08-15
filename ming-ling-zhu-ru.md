@@ -88,4 +88,4 @@ nice day
 + [php webshell分析和绕过waf技巧](http://bobao.360.cn/learning/detail/3271.html)
 + [【技术分享】命令执行和绕过的一些小技巧](http://bobao.360.cn/learning/detail/3192.html)
 + [浅谈CTF中命令执行与绕过的小技巧](http://www.freebuf.com/articles/web/137923.html)
-+ [命令执行的bypass技巧](http://www.math1as.com/index.php/archives/484)
++ [Mathias:命令执行的bypass技巧](http://www.math1as.com/index.php/archives/484)
