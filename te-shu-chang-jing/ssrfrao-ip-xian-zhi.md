@@ -5,10 +5,12 @@
 ## 法一： http基础认证
 http基础认证 user@domain.com
 
-若限制好了只能调用一个固定的域名,如www.baidu.com下的内容，则可用以下payload绕过：
+情景一： 后端对url进行解析，然后根据解析得到的host结果进行过滤，限制好了只能调用一个固定的域名,如www.baidu.com下的内容
+payload：
 ```
 www.baidu.com@attack.com
 ```
+
 ## 法二：xip.io
 传送门：http://xip.io/ 。它处理类似[ip].xip.io的dns解析请求时,返回的ip总是指向[ip]。
 
