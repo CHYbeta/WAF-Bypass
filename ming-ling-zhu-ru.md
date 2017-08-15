@@ -39,7 +39,9 @@ nice day
 ubuntu@VM-207-93-ubuntu:~$ cat<>flag
 nice day
 ```
-
+# 工具
++ [shelling
+](https://github.com/ewilded/shelling)
 # Refference
 + [PHP绕过open_basedir列目录的研究](https://www.leavesongs.com/PHP/php-bypass-open-basedir-list-directory.html)
 + [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html)
