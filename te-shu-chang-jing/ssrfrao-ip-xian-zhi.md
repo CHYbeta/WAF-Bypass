@@ -26,4 +26,6 @@ http://内网ip.xip.io
 
 
 # 0x04 Refference
++ [
+SSRF漏洞中绕过IP限制的几种方法总结 ](http://www.freebuf.com/articles/web/135342.html)
 + [math1as:CUIT-CTF WriteUp总结](http://www.math1as.com/index.php/archives/70/)
