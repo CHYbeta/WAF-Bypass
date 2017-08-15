@@ -19,6 +19,10 @@ payload1:
 ```
 
 情景二：后端对请求是否是内网地址做了过滤。
+payload2:
+```
+http://内网ip.xip.io
+```
 
 
 # Refference
