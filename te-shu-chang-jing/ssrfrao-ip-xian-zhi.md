@@ -12,11 +12,13 @@ www.baidu.com@attack.com
 # 0x03 法二：xip.io
 传送门：http://xip.io/ 。它处理类似[ip].xip.io的dns解析请求时,返回的ip总是指向[ip]。
 
-请求 www.baidu.com 时，可用
+情景一：单纯请求 www.baidu.com 时
 payload1:
 ```
 111.13.100.91.xip.io
 ```
+
+情景二：后端对请求是否是内网地址做了过滤。
 
 
 # Refference
