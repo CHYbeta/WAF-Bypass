@@ -76,7 +76,11 @@ nice day
 
 # 长度限制
 
-
+# LINUX下一些已有字符
++ ${PS2} 对应字符 '>'
++ ${PS4} 对应字符 '+'
++ ${IFS} 对应字符 空白
++ ${9}   对应 空字符串
 # 工具
 + [shelling
 ](https://github.com/ewilded/shelling)
