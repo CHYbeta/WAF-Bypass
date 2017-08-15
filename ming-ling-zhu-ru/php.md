@@ -1,6 +1,0 @@
-# Refference
-+ [PHP绕过open_basedir列目录的研究](https://www.leavesongs.com/PHP/php-bypass-open-basedir-list-directory.html)
-+ [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html)
-+ [关于lnmp目录禁止执行的绕过与正确方法](https://www.leavesongs.com/PENETRATION/nginx-deny-exec-php-file.html)
-+ [一些不包含数字和字母的webshell](https://www.leavesongs.com/PENETRATION/webshell-without-alphanum.html)
-+ [php webshell分析和绕过waf技巧](http://bobao.360.cn/learning/detail/3271.html)
