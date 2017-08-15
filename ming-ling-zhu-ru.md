@@ -1,6 +1,6 @@
 # 绕过escapeshellcmd
 ## 法一：执行bat
-```
+```php 
 <?php
     $command = 'dir '.$_POST['dir'];
     $escaped_command = escapeshellcmd($command);
@@ -81,6 +81,32 @@ nice day
 # 无回显
 
 # 长度限制
+## 文件构造
+payload1:
+```
+a>wget
+```
+payload2:
+```
+1>wget
+```
+payload3:
+```
+>wget
+```
+将会创建一个名字为wget的空文件。payload1会报错，payload2不会报错。.
+类似的，可以执行一系列操作，比如：
+```
+
+```
+
+```php 
+<?php
+if(strlen($_GET[test])<8){
+     echo shell_exec($_GET[test]);
+}
+?>
+```
 
 # LINUX下一些已有字符
 + ${PS2} 对应字符 '>'
@@ -91,6 +117,7 @@ nice day
 # 工具
 + [shelling
 ](https://github.com/ewilded/shelling)
+
 # Refference
 + [PHP绕过open_basedir列目录的研究](https://www.leavesongs.com/PHP/php-bypass-open-basedir-list-directory.html)
 + [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html)
