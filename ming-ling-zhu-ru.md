@@ -39,6 +39,16 @@ nice day
 ubuntu@VM-207-93-ubuntu:~$ cat<>flag
 nice day
 ```
+
+# 黑名单绕过
+## 法一： 拼接
+```
+ubuntu@VM-207-93-ubuntu:~$ a=c;b=at;c=flag;$a$b $c
+nice day
+```
+## 法二： 利用已存在的资源
+从已有的文件或者环境变量中获得相应的字符。
+
 # 工具
 + [shelling
 ](https://github.com/ewilded/shelling)
