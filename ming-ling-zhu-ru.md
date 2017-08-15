@@ -35,8 +35,14 @@ nice day
 ```
 
 ## 法二： 重定向符<>
+payload1：
 ```
 ubuntu@VM-207-93-ubuntu:~$ cat<>flag
+nice day
+```
+payload2：
+```
+ubuntu@VM-207-93-ubuntu:~$ cat<flag
 nice day
 ```
 
