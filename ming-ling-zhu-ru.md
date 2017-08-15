@@ -65,11 +65,17 @@ nice day
 ```
 ## 法二： 利用已存在的资源
 从已有的文件或者环境变量中获得相应的字符。
+
 ## 法三： base64编码
 ``
 ubuntu@VM-207-93-ubuntu:~$ `echo "Y2F0IGZsYWc="|base64 -d`
 nice day
 ```
+
+# 无回显
+
+# 长度限制
+
 
 # 工具
 + [shelling
@@ -82,3 +88,4 @@ nice day
 + [php webshell分析和绕过waf技巧](http://bobao.360.cn/learning/detail/3271.html)
 + [【技术分享】命令执行和绕过的一些小技巧](http://bobao.360.cn/learning/detail/3192.html)
 + [浅谈CTF中命令执行与绕过的小技巧](http://www.freebuf.com/articles/web/137923.html)
++ [命令执行的bypass技巧](http://www.math1as.com/index.php/archives/484)
