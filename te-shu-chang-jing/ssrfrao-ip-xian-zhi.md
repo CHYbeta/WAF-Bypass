@@ -5,7 +5,8 @@
 ## 法一： http基础认证
 http基础认证 user@domain.com
 
-情景一： 后端对url进行解析，然后根据解析得到的host结果进行过滤，限制好了只能调用一个固定的域名,如www.baidu.com下的内容
+### 情景一
+后端对url进行解析，然后根据解析得到的host结果进行过滤，限制好了只能调用一个固定的域名,如www.baidu.com下的内容
 
 payload：
 ```
