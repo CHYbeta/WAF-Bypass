@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [SQL注入](sqlzhu-ru.md)
   * [Mysql注入](sqlzhu-ru/mysqlzhu-ru.md)
-    * [基本绕过方法](sqlzhu-ru/mysqlzhu-ru/ji-ben-rao-guo-fang-fa.md)
+    * [绕过方法](sqlzhu-ru/mysqlzhu-ru/ji-ben-rao-guo-fang-fa.md)
 * [前端安全](qian-duan-an-quan.md)
   * [XSS](xss.md)
     * [基本绕过方法](xss/ji-ben-rao-guo-fang-fa.md)
@@ -13,6 +13,7 @@
   * [IIS](wen-jian-shang-chuan-lou-dong/iis.md)
   * [编辑器漏洞](wen-jian-shang-chuan-lou-dong/bian-ji-qi-lou-dong.md)
 * [命令执行](ming-ling-zhu-ru.md)
+  * [绕过方法](ming-ling-zhu-ru/rao-guo-fang-fa.md)
 * [特殊场景](te-shu-chang-jing.md)
   * [SSRF](te-shu-chang-jing/ssrfrao-ip-xian-zhi.md)
 
