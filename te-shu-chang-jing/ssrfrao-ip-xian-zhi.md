@@ -15,14 +15,16 @@ www.baidu.com@attack.com
 ## 法二：xip.io
 传送门：http://xip.io/ 。它处理类似[ip].xip.io的dns解析请求时,返回的ip总是指向[ip]。
 
-情景一：利用302跳转时，单纯请求 www.baidu.com。
+### 情景一
+利用302跳转时，单纯请求 www.baidu.com。
 
 payload1:
 ```
 111.13.100.91.xip.io
 ```
 
-情景二：利用302跳转时，后端对请求是否是内网地址做了过滤。
+### 情景二
+利用302跳转时，后端对请求是否是内网地址做了过滤。
 
 payload2:
 ```
