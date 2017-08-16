@@ -18,6 +18,8 @@
     + [IIS](https://chybeta.gitbooks.io/waf-bypass/wen-jian-shang-chuan-lou-dong/iis.html)
     + [编辑器漏洞](https://chybeta.gitbooks.io/waf-bypass/wen-jian-shang-chuan-lou-dong/bian-ji-qi-lou-dong.html)
 + [命令执行](https://chybeta.gitbooks.io/waf-bypass/content/ming-ling-zhu-ru.html)
+    + [绕过技巧](https://chybeta.gitbooks.io/waf-bypass/content/ming-ling-zhu-ru.html)
+    + [实例分析]
 + [特殊场景](https://chybeta.gitbooks.io/waf-bypass/content/te-shu-chang-jing.html)
 
 
