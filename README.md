@@ -6,10 +6,10 @@
 
 + [SQL注入](https://chybeta.gitbooks.io/waf-bypass/content/sqlzhu-ru.html)
     + [Mysql注入](https://chybeta.gitbooks.io/waf-bypass/sqlzhu-ru/mysqlzhu-ru.html)
-        + [基本绕过方法](https://chybeta.gitbooks.io/waf-bypass/sqlzhu-ru/mysqlzhu-ru/ji-ben-rao-guo-fang-fa.html)
+        + [绕过技巧](https://chybeta.gitbooks.io/waf-bypass/sqlzhu-ru/mysqlzhu-ru/ji-ben-rao-guo-fang-fa.html)
 + [前端安全](https://chybeta.gitbooks.io/waf-bypass/content/qian-duan-an-quan.html)
     + [XSS](https://chybeta.gitbooks.io/waf-bypass/xss.html)
-        + [XSS cheet sheet](https://chybeta.gitbooks.io/waf-bypass/xss-cheet-sheet.html)
+        + [绕过技巧](https://chybeta.gitbooks.io/waf-bypass/xss-cheet-sheet.html)
         + [CSP 绕过](https://chybeta.gitbooks.io/waf-bypass/csprao-guo.html)
 + [命令注入](https://chybeta.gitbooks.io/waf-bypass/content/ming-ling-zhu-ru.html)
     + [PHP](https://chybeta.gitbooks.io/waf-bypass/ming-ling-zhu-ru/php.html)
