@@ -15,14 +15,14 @@ www.baidu.com@attack.com
 ## 法二：xip.io
 传送门：http://xip.io/ 。它处理类似[ip].xip.io的dns解析请求时,返回的ip总是指向[ip]。
 
-情景一：单纯请求 www.baidu.com 时
+情景一：利用302跳转时，单纯请求 www.baidu.com。
 
 payload1:
 ```
 111.13.100.91.xip.io
 ```
 
-情景二：后端对请求是否是内网地址做了过滤。
+情景二：利用302跳转时，后端对请求是否是内网地址做了过滤。
 
 payload2:
 ```
@@ -58,6 +58,9 @@ payload2：
 ```
 10.1
 ```
+
+## 法四： 短地址
+情景：对于包含
 
 # 0x03 Refference
 + [SSRF漏洞中绕过IP限制的几种方法总结 ](http://www.freebuf.com/articles/web/135342.html)
