@@ -4,7 +4,7 @@
 
 主要由以下几个方面组成：
 
-* [SQL注入](https://chybeta.gitbooks.io/waf-bypass/content/sqlzhu-ru.html)
+* [SQL注入](https://chybeta.gitbooks.io/waf-bypass/content/sqlzhu-ru.html) 
   * [Mysql注入](https://chybeta.gitbooks.io/waf-bypass/sqlzhu-ru/mysqlzhu-ru.html)
     * [绕过技巧](https://chybeta.gitbooks.io/waf-bypass/sqlzhu-ru/mysqlzhu-ru/ji-ben-rao-guo-fang-fa.html) 
 * [前端安全](https://chybeta.gitbooks.io/waf-bypass/content/qian-duan-an-quan.html)
